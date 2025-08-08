@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: light --default, light;
+}
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+    --color-primary: #C6414C;
+}
+
+a.active {
+  color: #C6414C;
+  font-size: 1rem;
+  z-index: 10;
+  position: relative;
+}
