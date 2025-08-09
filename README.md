@@ -1,12 +1,99 @@
-# React + Vite
+# Blood Donation Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A responsive web application to search blood donors, manage donations securely, and facilitate blood donation efforts efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot
 
-## Expanding the ESLint configuration
+![Project Screenshot](./Screenshot_1.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Technologies Used
+
+- React.js (Frontend UI)
+- Node.js & Express (Backend API)
+- MongoDB (Database)
+- Axios (HTTP client)
+- Stripe API (Secure payment processing)
+- Tailwind CSS (Styling)
+- Firebase Authentication (User auth and roles)
+
+---
+
+## ✨ Core Features
+
+- Search blood donors by blood group, district, and upazila for precise matching.
+- Secure donation payment processing using Stripe.
+- Responsive user interface with filtering and pagination.
+- User authentication with role-based access control (donor, volunteer, admin).
+- Real-time updates of donor and donation data.
+- Donation history tracking for donors.
+- Easy-to-use dashboard for managing donors and donations.
+
+---
+
+## ⚙️ Dependencies
+
+- react
+- react-dom
+- axios
+- @stripe/react-stripe-js
+- @stripe/stripe-js
+- express
+- mongoose
+- dotenv
+- firebase
+- react-router-dom
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install frontend dependencies:**
+
+- cd client
+- npm install
+
+3. **Install backend dependencies:**
+
+- cd ../server
+- npm install
+
+4. **Setup environment variables:**
+
+- Create .env files in both client and server directories.
+
+- Add your MongoDB URI, Stripe keys, Firebase config, and other sensitive data.
+
+5. **Start backend server:**
+
+- npm run dev
+6. **Start frontend app:**
+
+- cd ../client
+- npm start
+- Open in browser:
+- Visit http://localhost:3000
+
+
+**Open in browser:**
+- Visit http://localhost:5000
+
+## 🔗 Live Project
+- https://tourmaline-unicorn-6f9468.netlify.app/
+
+
+## 📬 Contact
+
+- Reach me at: ik.riyad123@gmail.com
+
+
