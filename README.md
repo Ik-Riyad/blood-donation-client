@@ -36,8 +36,7 @@
 
 ## ⚙️ Dependencies
 
-- react
-- react-dom
+- react, react-dom
 - axios
 - @stripe/react-stripe-js
 - @stripe/stripe-js
@@ -81,7 +80,8 @@
 
 - cd ../client
 - npm start
-- Open in browser:
+
+7. **Open in browser:**
 - Visit http://localhost:5000
 
 ## 🔗 Live Project
