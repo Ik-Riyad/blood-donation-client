@@ -6,7 +6,7 @@
 
 ## 📸 Screenshot
 
-![Project Screenshot](./Screenshot_1.png)
+![Project Screenshot](public/Screenshot_1.png)
 
 ---
 
