@@ -82,10 +82,6 @@
 - cd ../client
 - npm start
 - Open in browser:
-- Visit http://localhost:3000
-
-
-**Open in browser:**
 - Visit http://localhost:5000
 
 ## 🔗 Live Project
