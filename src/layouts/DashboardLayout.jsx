@@ -205,7 +205,7 @@ const DashboardLayout = () => {
             {/* Main content area */}
             <div className="drawer-content flex flex-col min-h-screen bg-white text-black z-10 relative">
                 {/* Top navbar */}
-                <div className="w-full flex justify-between items-center px-6 py-4 border-b border-gray-200 shadow-sm bg-white z-20">
+                <div className="w-full flex justify-between items-center px-6 py-4 border-b border-gray-200 shadow-sm bg-white z-20 sticky top-0">
                     {/* Mobile sidebar toggle */}
                     <label htmlFor="my-drawer-2" className="btn btn-square btn-ghost lg:hidden">
                         <svg
