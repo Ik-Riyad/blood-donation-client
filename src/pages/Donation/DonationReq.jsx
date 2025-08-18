@@ -4,6 +4,7 @@ import { Link } from 'react-router';
 import Pagination from '../../components/Pagination/Pagination';
 import useAxios from '../../hooks/useAxios';
 import useAuth from '../../hooks/useAuth';
+import bgImage from '../../assets/banner/banner3.avif'
 
 const DonationReq = () => {
     const { loading } = useAuth()
@@ -43,7 +44,7 @@ const DonationReq = () => {
         <>
             <div
                 className="relative bg-cover bg-center flex items-center min-h-[450px] mt-[-98px] md:mt-[-149px] lg:mt-[-100px] -z-10"
-                style={{ backgroundImage: "url('/assets/banner.webp')" }}
+                style={{ backgroundImage: `url(${bgImage})` }}
             >
                 {/* Overlay */}
                 <div className="absolute top-0 left-0 w-full h-full bg-black/50"></div>
@@ -56,7 +57,7 @@ const DonationReq = () => {
                 </div>
             </div>
 
-            <div className='w-full md:w-9/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-4 mt-6'>
+            <div className='w-full md:w-9/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-4 mt-30'>
                 {
                     donationRequests.map(request =>
                         <div className="flex mb-8 md:mb-0 p-5 shadow-md rounded-xl bg-white hover:shadow-2xl hover:shadow-red-400 transition">
@@ -101,7 +102,7 @@ const DonationReq = () => {
                     )
                 }
             </div>
-            <div>
+            <div className='mb-20'>
                 <Pagination totalPages={totalPages} onPageChange={handlePageChange} />
             </div>
         </>

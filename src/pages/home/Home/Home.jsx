@@ -4,6 +4,7 @@ import SaveLife from '../sections/SaveLife';
 import Services from '../sections/Services';
 import ContactUs from '../sections/Contact/ContactUs';
 import Contact from '../sections/Contact/Contact';
+import HowItWorks from '../sections/HowItWorks';
 
 const Home = () => {
     return (
@@ -18,6 +19,10 @@ const Home = () => {
             {/* Services Section */}
             <section>
                 <Services></Services>
+            </section>
+            {/* How it works */}
+            <section>
+                <HowItWorks></HowItWorks>
             </section>
             {/* Contact Section */}
             <section>

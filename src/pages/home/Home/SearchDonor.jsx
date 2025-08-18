@@ -57,9 +57,9 @@ const SearchDonor = () => {
                     <h1 className="text-2xl md:text-4xl text-center font-bold coiny-regular text-red-400">Your Blood Can Be Someone’s Hope.</h1>
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row max-w-10/12 mx-auto gap-6 p-4">
+            <div className="flex flex-col md:flex-row max-w-10/12 mx-auto gap-6 p-4 my-30">
                 {/* Filter Sidebar */}
-                <div className="md:w-1/4 bg-white rounded-xl p-6 min-h-screen">
+                <div className="md:w-1/4 bg-white rounded-xl p-6 ">
                     <h2 className="text-xl font-semibold mb-4">Search Donors</h2>
                     <form onSubmit={handleSearch} className="space-y-4">
                         <div>
@@ -157,7 +157,6 @@ const SearchDonor = () => {
                                     </button>
                                 </div>
                             </div>
-
                         ))
                     )}
                 </div>
